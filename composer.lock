@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b57d4cbe94ac7abd259e6c008465e9e1",
+    "content-hash": "20be8a033e994a9cb337fb9618a7063e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -103,6 +103,41 @@
                 "math"
             ],
             "time": "2020-08-18T23:57:15+00:00"
+        },
+        {
+            "name": "components/font-awesome",
+            "version": "5.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/components/font-awesome.git",
+                "reference": "75afe9bc19a5944b4700e723e0646a8efb4591a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/components/font-awesome/zipball/75afe9bc19a5944b4700e723e0646a8efb4591a1",
+                "reference": "75afe9bc19a5944b4700e723e0646a8efb4591a1",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "styles": [
+                        "css/all.css"
+                    ],
+                    "files": [
+                        "css/all.min.css",
+                        "webfonts/*"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "CC-BY-4.0",
+                "MIT",
+                "OFL-1.1"
+            ],
+            "description": "Font Awesome, the iconic SVG, font, and CSS framework.",
+            "time": "2020-07-16T13:04:31+00:00"
         },
         {
             "name": "daneden/animate.css",

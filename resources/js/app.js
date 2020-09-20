@@ -6,7 +6,9 @@
 
 require('./bootstrap');
 require('./cursor');
+require('@fortawesome/fontawesome-free/js/all.js');
 require('simple-parallax-js');
+
 
 /**
 * Import VueJs

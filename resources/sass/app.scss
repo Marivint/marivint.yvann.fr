@@ -1,5 +1,5 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 // Variables
 @import 'variables';
@@ -9,3 +9,29 @@
 
 // Magic.css
 @import '~magic.css/assets/scss/magic.scss';
+
+// Font awesome.css
+// @import '~font-awesome/scss/fontawesome.scss'; 
+ 
+// Header burger
+@import 'header.scss';
+ 
+body{
+    min-width: 375px;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 18px;
+    line-height: 1.77778;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #111029;
+}
+
+.main-bg{
+	position: absolute;
+	top: 0px;
+	z-index: 0;
+	img{
+		width: 100%
+	}
+}
+

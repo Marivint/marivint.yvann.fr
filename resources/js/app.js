@@ -5,6 +5,7 @@
  */
 
 require('./bootstrap');
+require('simple-parallax-js');
 
 window.Vue = require('vue');
 

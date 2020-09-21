@@ -1,5 +1,6 @@
-// Fonts
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+// Font face
+@import 'font-face';
 
 // Variables
 @import 'variables';
@@ -12,13 +13,20 @@
 
 // Font awesome.css
 // @import '~font-awesome/scss/fontawesome.scss'; 
- 
-// Header burger
+
+// Header
 @import 'header.scss';
+
+
+html{
+    font-family: 'Poppins', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
  
 body{
     min-width: 375px;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
     line-height: 1.77778;
     -webkit-font-smoothing: antialiased;
@@ -28,9 +36,9 @@ body{
 
 .main-bg{
 	position: absolute;
-	top: 0px;
+	top: 0px; 
 	z-index: 0;
-	img{
+	img{ 
 		width: 100%
 	}
 }

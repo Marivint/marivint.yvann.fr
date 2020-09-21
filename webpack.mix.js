@@ -11,7 +11,11 @@ const mix = require('laravel-mix');
  |
  */
 
+// JS & CSS Compilation
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
-    .copy('resources/img/', 'public/img/');
-    .copy('resources/icon/', 'public/icon/');
+   .sass('resources/sass/app.scss', 'public/css')
+   .version(); 
+
+// Folder copy
+mix.copy('resources/img/', 'public/img/');
+mix.copy('resources/icon/', 'public/icon/');

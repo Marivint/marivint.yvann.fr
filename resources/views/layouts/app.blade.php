@@ -9,7 +9,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('img/apple-touch-icon.png') }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/favicon-32x32.png') }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/favicon-16x16.png') }}">
-  <link rel="manifest" href="{{ asset('img/site.webmanifest') }}">
+  <!-- <link rel="manifest" crossorigin="use-credentials" href="{{ asset('img/site.webmanifest') }}"> -->
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@ui8">
@@ -26,28 +26,26 @@
   <meta property="og:site_name" content="Yvann Marivint Portfolio">
   <meta property="fb:admins" content="132951670226590">
 
-
-
   <!-- CSRF Token -->
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <title>Yvann Marivint - Portfolio</title>
   <meta name="description" content="FullStack Developper from Paris. I design and make websites, ERP applications">
 
+  <!-- Styles -->
+  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
   <!-- Scripts -->
   <script> window._asset = '{{ asset('') }}';</script> <!-- Register Laravel Asset() path in javascript -->
   <script src="{{ asset('js/app.js') }}" defer></script>
 
-  <!-- Fonts -->
-  <link rel="dns-prefetch" href="//fonts.gstatic.com">
-
-  <!-- Styles -->
-  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
     <!-- App VueJs -->
     <div id="app">
 
+        <!-- Cursor -->
+        <div class="cursor"></div>
 
         <!-- Header -->
         <header>

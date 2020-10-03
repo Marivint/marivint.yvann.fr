@@ -1,4 +1,4 @@
-/* @media 
+/* @media BOOTSTRAP
 
 <576px  Extra small
 ≥576px  Small
@@ -8,15 +8,9 @@
 
 ============================================= */
 
-@media (max-width: 768px) {
 
-  .header-item {
-    display: none !important;
-  }
-
-}
-
-
+/* MAX-WIDTH: 1200PX
+============================================= */
 @media (max-width: 1200px) {
 
   .header-logo{
@@ -52,35 +46,47 @@
     margin-top: 3px;
   }
 
-}
-
-@media (max-width: 992px) {
-
-  .header-item-logo{
-    margin-right: 80px;
-  }
-
-}
-
-@media (max-width: 767px){
-  h1{
-    font-size: 1.5em;
-  }
-}
-
-@media (max-width:1200px){
   .main-bg{
     img{ 
         max-height: 900px;
         max-width: 1200px;
     }
   }
+
+  h1{
+    font-size: 1.5em;
+  }
+
+  .subtitle{
+    font-size: 0.9em;
+  }
+
 }
+
+/* MIN-WIDTH: 1200PX
+============================================= */
 @media (min-width:1200px){
   .main-bg{
     img{ 
         max-height: 1300px;
         max-width: 1500px;
     }
+  }
+}
+
+/* MAX-WIDTH: 992PX
+============================================= */
+@media (max-width: 992px) {
+
+  .header-item-logo{
+    margin-right: 80px;
+  }
+}
+
+/* MAX-WIDTH: 768PX 
+============================================= */
+@media (max-width: 768px){
+  .header-item {
+    display: none !important;
   }
 }

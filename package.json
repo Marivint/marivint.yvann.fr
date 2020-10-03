@@ -26,6 +26,7 @@
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.14.0",
         "animate.css": "^4.1.1",
+        "gsap": "^3.5.1",
         "magic.css": "^1.4.6",
         "simple-parallax-js": "^5.6.2"
     }

@@ -1,5 +1,5 @@
-@mixin transition($s) {
-  -webkit-transition: all $s;
-  -o-transition: all $s;
-  transition: all $s;
+@mixin transitionn($n) {
+  -webkit-transition: all $n;
+  -o-transition: all $n;
+  transition: all $n;
 }

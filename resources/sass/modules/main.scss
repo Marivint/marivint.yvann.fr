@@ -17,6 +17,7 @@ body{
   -moz-osx-font-smoothing: grayscale;
   color: #111029;
   background-color: transparent;
+
 }
 
 /* MAIN PAGE 
@@ -33,6 +34,14 @@ main{
   img{ 
     width: 100%
   }
+}
+
+
+
+/* TRANSITION 
+============================================= */
+h1,h2,h3,h4,h5,p,.subtitle{
+  @extend %transition;
 }
 
 /* TITLE 

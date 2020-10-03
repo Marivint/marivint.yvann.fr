@@ -1,76 +1,16 @@
+/* Base folder */
+@import 'base/font-face';            // FontFace
+@import 'base/variables';            // Variables 
+@import 'base/mixins';               // Mixins 
+@import 'base/placeholder';          // PlaceHolder 
 
-// Font face
-@import 'font-face';
+/* Plugin */
+@import '~bootstrap/scss/bootstrap'; // Bootstrap
+@import '~magic.css/assets/scss/magic.scss'; // Magic.css
 
-// Variables
-@import 'variables';
+/* Structure and layout files */
+@import 'modules/main.scss'; // Main
+@import 'modules/header.scss'; // Header
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
-// Magic.css
-@import '~magic.css/assets/scss/magic.scss';
-
-// Font awesome.css
-// @import '~font-awesome/scss/fontawesome.scss'; 
-
-// Header
-@import 'header.scss';
-
-html{
-    font-family: 'Poppins', sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
- 
-body{
-    min-width: 375px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    line-height: 1.77778;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #111029;
-}
-
-main{
-    margin-top: 150px;
-}
-
-.main-bg{
-    position: absolute;
-    top: 0px; 
-    z-index: 0;
-    img{ 
-        width: 100%
-    }
-}
-
-#main-header-text{
-    padding-top:60px;
-}
-
-h1{
-    font-size: 60px;
-    font-weight: 600;
-}
-
-.subtitle{
-    position:relative;
-    line-height:1.4px;
-    font-weight: 600;
-    color: #2b90d9;
-    padding-left: 40px;
-}
-
-.subtitle:before{
-    content: "";
-    position:absolute;
-    left: 0px;
-    width:30px;
-    height: 2px;
-    background: #2b90d9;
-}
-
-// Responsive design
-@import 'media-queries.scss';
+/* Media queries */
+@import 'base/media-queries';

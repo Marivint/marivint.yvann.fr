@@ -7,11 +7,11 @@
         props:{
             height:{
                 type: String,
-                required: true,
+                required: false,
             },
             width:{
                 type: String,
-                required: true,
+                required: false,
             },
             alt:{
                 type: String,

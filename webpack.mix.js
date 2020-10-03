@@ -17,5 +17,5 @@ mix.js('resources/js/app.js', 'public/js')
    .version(); 
 
 // Folder copy
-mix.copy('resources/img/', 'public/img/');
-mix.copy('resources/icon/', 'public/icon/');
+mix.copyDirectory('resources/img/', 'public/img/');
+mix.copyDirectory('resources/icon/', 'public/icon/');

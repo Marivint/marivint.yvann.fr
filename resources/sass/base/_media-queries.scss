@@ -1,18 +1,21 @@
-/* @media BOOTSTRAP
+/* 
 
+@media Bootstrap
 <576px  Extra small
 ≥576px  Small
 ≥768px  Medium
 ≥992px  Large
 ≥1200px Extra large
 
+@media Custom
+See variables breakpoint
+
 ============================================= */
 
 
-/* MAX-WIDTH: 1200PX
+/* Media large
 ============================================= */
-@media (max-width: 1200px) {
-
+@include media-large {
   .header-logo{
     width: 30px;
   }
@@ -60,32 +63,19 @@
   .subtitle{
     font-size: 0.9em;
   }
-
 }
 
-/* MIN-WIDTH: 1200PX
+/* Media medium
 ============================================= */
-@media (min-width:1200px){
-  .main-bg{
-    img{ 
-        max-height: 1300px;
-        max-width: 1500px;
-    }
-  }
-}
-
-/* MAX-WIDTH: 992PX
-============================================= */
-@media (max-width: 992px) {
-
+@include media-medium {
   .header-item-logo{
     margin-right: 80px;
   }
 }
 
-/* MAX-WIDTH: 768PX 
+/* Media small
 ============================================= */
-@media (max-width: 768px){
+@include media-small {
   .header-item {
     display: none !important;
   }

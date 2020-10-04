@@ -1,17 +1,21 @@
-/* Base folder */
-@import 'base/font-face';            // FontFace
-@import 'base/variables';            // Variables 
-@import 'base/mixins';               // Mixins 
-@import 'base/placeholder';          // PlaceHolder 
+/* Base
+============================================= */
+@import 'base/font-face';   // FontFace
+@import 'base/variables';   // Variables 
+@import 'base/mixins';      // Mixins & functions
+@import 'base/placeholder'; // PlaceHolder 
 
-/* Plugin */
-@import '~bootstrap/scss/bootstrap'; // Bootstrap
+/* Plugin
+============================================= */
+@import '~bootstrap/scss/bootstrap';         // Bootstrap
 @import '~magic.css/assets/scss/magic.scss'; // Magic.css
 
-/* Structure and layout files */
-@import 'modules/main.scss'; // Main
+/* Structure and layout files 
+============================================= */
+@import 'modules/main.scss';   // Main
 @import 'modules/header.scss'; // Header
 @import 'modules/cursor.scss'; // Cursor
 
-/* Media queries */
+/* Media queries
+============================================= */
 @import 'base/media-queries';

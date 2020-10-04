@@ -1,11 +1,16 @@
 import { gsap } from "gsap";
 
-let elementCursor = document.getElementsByClassName("cursor");
+let elementCursorLittle = document.getElementsByClassName("cursor-little");
+let elementCursorBig = document.getElementsByClassName("cursor-big");
 
 function moveCursor(e){
 
   var render = function render() {
-		gsap.set(elementCursor, {
+		gsap.set(elementCursorLittle, {
+		    x: e.clientX,
+		    y: e.clientY
+		});
+		gsap.set(elementCursorBig, {
 		    x: e.clientX,
 		    y: e.clientY
 		});
@@ -14,6 +19,6 @@ function moveCursor(e){
 	requestAnimationFrame(render);
 }
 
-document.addEventListener("mousemove", function (e) {
+document.addEventListener("mousemove", e => {
     moveCursor(e);
 });

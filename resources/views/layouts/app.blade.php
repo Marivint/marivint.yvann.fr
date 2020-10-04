@@ -45,7 +45,8 @@
     <div id="app">
 
         <!-- Cursor -->
-        <div class="cursor"></div>
+        <div class="cursor-little"></div>
+        <div class="cursor-big"></div>
 
         <!-- Header -->
         <header>

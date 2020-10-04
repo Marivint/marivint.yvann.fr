@@ -1,10 +1,12 @@
+/* Header
+============================================= */
 header{
   position: absolute;
   top: 40px;
   left: 0;
   right: 0;
   padding: 0 60px;
-  z-index: 2;
+  z-index: 10;
 }
 
 .header-center{
@@ -13,23 +15,27 @@ header{
   -ms-flex-align: center;
 }
 
+/* Header logo
+============================================= */
 .header-logo{
   width: 40px;
   height: auto;
-  @extend %transition;
+  @extend %base-transition;
 }
 
 .header-item-logo{
   margin-right: 120px;
-  @extend %transition;
+  @extend %base-transition;
 }
 
+/* Header item
+============================================= */
 .header-item{
   font-weight: 500;
   font-size: 1em;
   color: $color_gris;
   margin-right: 50px;
-  @extend %transition;
+  @extend %base-transition;
 }
 
 .header-item-icon{
@@ -37,9 +43,11 @@ header{
   height: 23px;
   margin-right:20px;
   .header-item-icon-stroke{ stroke: $color_gris }
-  @extend %transition;
+  @extend %base-transition;
 }
 
+/* Header burger
+============================================= */
 .header-burger {
   position: relative;
   border: 0;
@@ -53,7 +61,7 @@ header{
   -webkit-transition: all .25s;
   -o-transition: all .25s;
   transition: all .25s;
-  z-index: 10;
+  z-index: 20;
 }
 
 .header-burger:before, .header-burger:after {

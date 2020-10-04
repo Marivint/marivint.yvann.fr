@@ -1,12 +1,20 @@
-/* TYPOGRAPHY 
+/* Typography 
 ============================================= */
 $font-family-sans-serif : 'Poppins', sans-serif;
 $font-size-base: 1rem;
 $line-height-base: 1.6;
 
-/* colors 
+/* Breakpoint 
+============================================= */
+$breakpoint-large: 1200px;
+$breakpoint-medium: 992px;
+$breakpoint-small: 768px;
+
+/* Colors 
 ============================================= */
 $color_gris: #9F9FA9;
-$color_light_blue : #00DCFF;
+$color_blue : #2b90d9;
+// $color_light_blue : #00DCFF;
 
-$color_cursor : $color_light_blue;
+$color_cursor_little : $color_blue;
+$color_cursor_big : $color_blue;

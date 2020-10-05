@@ -1,15 +1,15 @@
 /**
 * Import required file
 */
-require('./bootstrap');
-require('./cursor.js');
+import './bootstrap';
+import './cursor.js';
 // require('@fortawesome/fontawesome-free/js/all.js');
 // require('simple-parallax-js');
 
 /**
 * Import VueJs
 */
-window.Vue = require('vue');
+import Vue from 'vue';
 Vue.mixin(require('./mixins/asset.js')); // Import VueJs Mixins
 /**
  * Import VueJs components
@@ -26,4 +26,12 @@ files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(
  */
 const app = new Vue({
     el: '#app',
+    data:function(){
+        return{
+
+        }
+    },
+    mounted() {
+        
+    }
 });

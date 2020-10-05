@@ -10,7 +10,7 @@
   left: -4px;
   top: -4px;
   border-radius: 50%;
-  background: $color_cursor_little;
+  background: $color-cursor-little;
   pointer-events: none;
 }
 
@@ -26,7 +26,7 @@
   left: -12px;
   top: -12px;
   border-radius: 50%;
-  background: $color_cursor_big;
+  background: $color-cursor-big;
   pointer-events: none;
   @include opacity(0.5);
   @include transition(all .1s);

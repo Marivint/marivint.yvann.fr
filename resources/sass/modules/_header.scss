@@ -33,7 +33,7 @@ header{
 .header-item{
   font-weight: 500;
   font-size: 1em;
-  color: $color_gris;
+  color: $color-gris;
   margin-right: 50px;
   @extend %base-transition;
 }
@@ -42,7 +42,7 @@ header{
   width: 23px;
   height: 23px;
   margin-right:20px;
-  .header-item-icon-stroke{ stroke: $color_gris }
+  .header-item-icon-stroke{ stroke: $color-gris }
   @extend %base-transition;
 }
 
